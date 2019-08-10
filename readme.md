@@ -1,7 +1,7 @@
 
-Lista de comandos Basicos Linux
+# Lista de comandos Basicos Linux
 
-1. NAVEGACION ENTRE ARCHIVOS Y LISTADO DE ARCHIVOS
+## 1. NAVEGACION ENTRE ARCHIVOS Y LISTADO DE ARCHIVOS
 	
 	Limpiar pantalla
 		> clear | Ctrl + l
@@ -28,7 +28,7 @@ Lista de comandos Basicos Linux
 		> cd (Change Directory)		
 
 
-2. CREACION DE DIRECTORIOS, MOVER COPIAR Y ELIMINAR ARCHIVOS
+## 2. CREACION DE DIRECTORIOS, MOVER COPIAR Y ELIMINAR ARCHIVOS
 	
 	Crear Directorio
 		> mkdir NombreCarpeta
@@ -48,7 +48,7 @@ Lista de comandos Basicos Linux
 		> touch NombreArchivo 	(Modifica la fecha de ultimo acceso y modificacion a el archivo)
 
 
-3. LINKS (Apuntadores)
+## 3. LINKS (Apuntadores)
 		
 	Crear un link
 		> ln -s Original Nuevo
@@ -57,7 +57,7 @@ Lista de comandos Basicos Linux
 		> rm nombre
 		> rm -rf Carpeta/
 
-4. Otros comandos		
+## 4. Otros comandos		
 	
 	Informacion sobre comandos
 		> man "COMANDO"		
@@ -72,7 +72,7 @@ Lista de comandos Basicos Linux
 		> wc -l nombreArchivo (Lineas que posee el archivo)
 
 
-5. Monitoreo de Procesos
+## 5. Monitoreo de Procesos
 
 	Ruta de comando que se esta ejecutando
 		> which comando
@@ -81,7 +81,7 @@ Lista de comandos Basicos Linux
 		> kill -9 PID
 
 
-6. Busqueda de contenido
+## 6. Busqueda de contenido
 	
 	Dentro de un archivo segun una palabra
 		> cat nombreArchivo | grep palabra
@@ -92,7 +92,7 @@ Lista de comandos Basicos Linux
 		> grep -r . -e palabraBuscar	(. indica el directorio actual)
 		> grep -r . -e palabraBuscar -n	(. indica el directorio actual, indica tambien la linea de coincidencia)
 
-7. Crontab
+## 7. Crontab
 	
 	Mostrar
 		> crontab -l 
